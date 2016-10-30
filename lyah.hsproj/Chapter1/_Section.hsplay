@@ -1,0 +1,30 @@
+-- Haskell Playground 1.0
+2 + 15
+
+49 * 100
+
+1892 - 1472
+
+5 / 2
+
+(50 * 100) - 4999
+
+59 * 100 - 4999
+
+50 * (100 - 4999)
+
+True && False
+
+True && True
+
+not False
+
+not (True && False)
+
+5 == 5
+
+1 == 0
+
+5 /= 4
+
+"hello" == "hello"

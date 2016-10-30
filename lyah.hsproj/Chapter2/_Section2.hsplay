@@ -1,0 +1,6 @@
+-- Haskell Playground 1.0
+factorial 50
+
+circumference 4.0
+
+circumference' 4.0

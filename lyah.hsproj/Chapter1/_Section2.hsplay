@@ -1,0 +1,16 @@
+-- Haskell Playground 1.0
+doubleMe 9
+
+doubleMe 8.3
+
+doubleUs 4 9
+
+doubleUs 2.3 34.2
+
+doubleUs 28 88 + doubleMe 123
+
+doubleSmallNumber 99
+
+doubleSmallNumber 101
+
+conanO'Brien

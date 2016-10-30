@@ -1,0 +1,30 @@
+name: lyah
+version: 1.0
+cabal-version: 1.11
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+x-ghc-framework-version: 7.10.3-5.18-1
+x-last-ide-version: HfM1.3.0
+Executable lyah
+  main-is: Chapter1/Section.hs
+  buildable: True
+  build-depends:
+      base -any
+  other-modules:
+      Chapter4.Section1
+      Chapter2.Section4
+      Chapter2.Section1
+      Chapter2.Section2
+      Chapter3.Section4
+      Chapter3.Section2
+      Chapter3.Section3
+      Chapter3.Section1
+      Chapter3.Section5
+      Chapter1.Section2
+      Chapter1.Section1
+      Chapter1.Section4
+      Chapter1.Section3
+      Chapter1.Section6
+      Chapter1.Section5
+      Main

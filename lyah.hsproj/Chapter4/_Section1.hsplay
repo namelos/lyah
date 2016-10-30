@@ -1,0 +1,4 @@
+-- Haskell Playground 1.0
+maximum' [2, 5, 1]
+
+take' 2 [5, 4, 3, 2, 1]
