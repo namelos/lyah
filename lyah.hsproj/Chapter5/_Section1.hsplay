@@ -1,0 +1,8 @@
+-- Haskell Playground 1.0
+max 4 5
+
+(max 4) 5
+
+-- max :: (Ord a) => a -> a -> a
+-- could also be
+-- max :: (Ord a) => a -> (a -> a)

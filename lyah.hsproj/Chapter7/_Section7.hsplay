@@ -1,0 +1,18 @@
+-- Haskell Playground 1.0
+Empty
+
+5 :-: Empty
+
+4 :-: (5 :-: Empty)
+
+3 :-: (4 :-: (5 :-: Empty))
+
+3 :-: 4 :-: 5 :-: Empty
+
+a ^++ b
+
+numsTree
+
+8 `treeElem` numsTree
+
+100 `treeElem` numsTree

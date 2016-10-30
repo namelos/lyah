@@ -1,0 +1,6 @@
+-- Haskell Playground 1.0
+Person "Buddy" "Finklestein" 43 184.2 "5256-2928" "Chocolate"
+
+Car { company = "Ford"
+    , model = "Mustang"
+    , year = 1967 }

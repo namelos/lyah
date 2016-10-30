@@ -1,0 +1,18 @@
+-- Haskell Playground 1.0
+Right 20
+
+Left "w00t"
+
+Right 'a'
+
+Left True
+
+lockerLookup 101 lockers
+
+lockerLookup 100 lockers
+
+lockerLookup 102 lockers
+
+lockerLookup 110 lockers
+
+lockerLookup 105 lockers

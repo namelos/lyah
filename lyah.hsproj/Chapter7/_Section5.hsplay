@@ -1,0 +1,46 @@
+-- Haskell Playground 1.0
+mca == adRock
+
+mikeD == adRock
+
+mikeD == mikeD
+
+mikeD == Person { firstName = "Michael"
+                , lastName  = "Diamond"
+                , age       = 43 }
+                
+mikeD `elem` beastieBoys
+
+mikeD
+
+"mikeD is: " ++ show mikeD
+
+read mysteryDude :: Person
+
+read "Just 3" :: Maybe Int
+
+Wednesday
+
+show Wednesday
+
+read "Wednesday" :: Day
+
+Saturday == Sunday
+
+Saturday == Saturday
+
+Saturday > Friday
+
+Monday `compare` Wednesday
+
+minBound :: Day
+
+maxBound :: Day
+
+succ Monday
+
+pred Saturday
+
+[Thursday .. Sunday]
+
+[minBound .. maxBound] :: [Day]

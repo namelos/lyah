@@ -1,0 +1,8 @@
+-- Haskell Playground 1.0
+Just 'a'
+
+Just "Haha"
+
+Just 84
+
+Just 10 :: Maybe Double

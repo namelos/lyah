@@ -1,0 +1,16 @@
+-- Haskell Playground 1.0
+area' $ Circle' 10 20 10
+
+area' $ Rectangle' 0 0 100 100
+
+Circle' 10 20 5
+
+Rectangle' 50 230 60 90
+
+area (Rectangle (Point 0 0) (Point 100 100))
+
+area (Circle (Point 0 0) 24)
+
+nudge (Circle (Point 34 34) 10) 5 10
+
+nudge (baseRect 40 100) 60 23

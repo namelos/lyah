@@ -1,0 +1,38 @@
+-- Haskell Playground 1.0
+map' (+3) [1, 2, 3, 4, 5, 6]
+
+map' (++ "!") ["BIFF", "BANG", "POW"]
+
+map' (replicate 3) [3..6]
+
+map' (map (^2)) [[1, 2], [3, 4, 5, 6], [7, 8]]
+
+map' fst [(1, 2), (3, 5), (6, 3), (2, 6), (2, 5)]
+
+filter' (>3) [1, 5, 3, 2, 1, 6, 4, 3, 2, 1]
+
+filter' (==3) [1, 2, 3, 4, 5]
+
+filter' even [1..10]
+
+filter' (<15) (filter even [1..20])
+-- same as
+[x | x <- [1..20], x < 15, even x]
+
+largestDivisible == largestDivisible'
+
+takeWhile (/=' ') "elephants know how to party"
+
+sum (takeWhile (<10000) (filter odd (map (^2) [1..])))
+
+sum (takeWhile (<10000) [ m | m <- [ n^2 | n <- [1..] ], odd m ])
+
+chain 10
+
+chain 1
+
+chain 3
+
+numLongChains
+
+(listOfFuns !! 4) 5

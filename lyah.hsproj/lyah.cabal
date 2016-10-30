@@ -10,9 +10,27 @@ Executable lyah
   main-is: Chapter1/Section.hs
   buildable: True
   build-depends:
-      base -any
+      base -any,
+      containers -any
   other-modules:
+      Main
       Chapter4.Section1
+      Chapter7.Section10
+      Chapter7.Section2
+      Chapter7.Section9
+      Chapter7.Section4
+      Chapter7.Section7
+      Chapter7.Section3
+      Chapter7.Section8
+      Chapter7.Section6
+      Chapter7.Section5
+      Chapter5.Section2
+      Chapter5.Section1
+      Chapter5.Section4
+      Chapter5.Section7
+      Chapter5.Section3
+      Chapter5.Section6
+      Chapter5.Section5
       Chapter2.Section4
       Chapter2.Section1
       Chapter2.Section2
@@ -21,10 +39,11 @@ Executable lyah
       Chapter3.Section3
       Chapter3.Section1
       Chapter3.Section5
+      Chapter6.Section1
+      Chapter6.Section2
       Chapter1.Section2
       Chapter1.Section1
       Chapter1.Section4
       Chapter1.Section3
       Chapter1.Section6
       Chapter1.Section5
-      Main
