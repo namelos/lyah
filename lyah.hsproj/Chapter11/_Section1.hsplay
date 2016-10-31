@@ -1,0 +1,14 @@
+-- Haskell Playground 1.0
+fmap (*3) (+100)
+
+fmap (*3) (+100) 1
+
+fmap (replicate 3) [1, 2, 3, 4]
+
+fmap (replicate 3) (Just 4)
+
+fmap (replicate 3) (Right "blah")
+
+fmap (replicate 3) Nothing
+
+fmap (replicate 3) (Left "foo")

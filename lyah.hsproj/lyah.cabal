@@ -13,8 +13,12 @@ Executable lyah
       base -any,
       containers -any
   other-modules:
-      Main
+      Chapter12.Section1
+      Chapter11.Section1
+      Chapter11.Section3
       Chapter4.Section1
+      Chapter6.Section1
+      Chapter6.Section2
       Chapter7.Section10
       Chapter7.Section2
       Chapter7.Section9
@@ -24,6 +28,9 @@ Executable lyah
       Chapter7.Section8
       Chapter7.Section6
       Chapter7.Section5
+      Chapter8.Section2
+      Chapter8.Section3
+      Main
       Chapter5.Section2
       Chapter5.Section1
       Chapter5.Section4
@@ -39,8 +46,7 @@ Executable lyah
       Chapter3.Section3
       Chapter3.Section1
       Chapter3.Section5
-      Chapter6.Section1
-      Chapter6.Section2
+      Chapter13.Section1
       Chapter1.Section2
       Chapter1.Section1
       Chapter1.Section4

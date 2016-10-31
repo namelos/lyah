@@ -1,0 +1,42 @@
+-- Haskell Playground 1.0
+let a = fmap (*) [1,2,3,4]
+
+fmap (\f -> f 9) a
+
+Just (+3) <*> Just 9
+
+pure (+3) <*> Just 10
+
+pure (+3) <*> Just 9
+
+Just (++"hahah") <*> Nothing
+
+Nothing <*> Just "woot"
+
+pure (+) <*> Just 3 <*> Just 5
+
+pure (+) <*> Just 3 <*> Nothing
+
+pure (+) <*> Nothing <*> Just 5
+
+-- pure f <*> x == fmap f x
+
+(++) <$> Just "johntra" <*> Just "volta"
+
+pure "Hey" :: [String]
+
+pure "Hey" :: Maybe String
+
+[(*0),(+100),(^2)] <*> [1,2,3]
+
+[(+),(*)] <*> [1,2] <*> [3,4]
+
+(++) <$> ["ha", "heh", "hmm"] <*> ["?", "!", "."]
+
+[ x*y | x <- [2,5,10], y <- [8,10,11] ]
+
+(*) <$> [2,5,10] <*> [8,10,11]
+
+filter (>50) $ (*) <$> [2,5,10] <*> [8,10,11]
+
+liftA2 (+) (Just 3) (Just 4)

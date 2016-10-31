@@ -1,0 +1,34 @@
+-- Haskell Playground 1.0
+fmap (++"!") (Just "wisdom")
+
+fmap (++"!") Nothing
+
+Just (+3) <*> Just 3
+
+Nothing <*> Just "greed"
+
+max <$> Just 3 <*> Just 6
+
+max <$> Just 3 <*> Nothing
+
+(\x -> Just (x+1)) 1
+
+(\x -> Just (x+1)) 100
+
+Just 3 `applyMaybe` \x -> Just (x+1)
+
+Just "smile" `applyMaybe` \x -> Just (x ++ " :)")
+
+Nothing `applyMaybe` \x -> Just (x+1)
+
+Nothing `applyMaybe` \x -> Just (x ++ " :)")
+
+Just 3 `applyMaybe` \x -> if x > 2 then Just x else Nothing
+
+Just 1 `applyMaybe` \x -> if x > 2 then Just x else Nothing
+
+return "WHAT" :: Maybe String
+
+Just 9 >>= \x -> return (x*10)
+
+Nothing >>= \x -> return (x*10)

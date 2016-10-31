@@ -1,0 +1,12 @@
+-- Haskell Playground 1.0
+CharList "This will be shown"
+
+[1,2,3] `mappend` [4,5,6]
+
+"one" `mappend` "two" `mappend` "tree"
+
+"pang" `mappend` mempty
+
+mconcat [[1,2],[3,6],[9]]
+
+mempty :: [a]
